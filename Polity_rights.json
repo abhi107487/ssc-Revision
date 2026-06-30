@@ -1,0 +1,40 @@
+{
+  "topicName": "Fundamental Rights",
+  "questions": [
+    {
+      "q_hi": "भारतीय संविधान के किस अनुच्छेद को 'संविधान की आत्मा' कहा जाता है?",
+      "q_en": "Which article of the Indian Constitution is called the 'Heart and Soul of the Constitution'?",
+      "options_hi": ["अनुच्छेद 14", "अनुच्छेद 19", "अनुच्छेद 32", "अनुच्छेद 21"],
+      "options_en": ["Article 14", "Article 19", "Article 32", "Article 21"],
+      "answer": 2
+    },
+    {
+      "q_hi": "समानता का अधिकार (Right to Equality) किस अनुच्छेद के अंतर्गत आता है?",
+      "q_en": "Right to Equality is mentioned under which article?",
+      "options_hi": ["अनुच्छेद 14-18", "अनुच्छेद 19-22", "अनुच्छेद 23-24", "अनुच्छेद 25-28"],
+      "options_en": ["Article 14-18", "Article 19-22", "Article 23-24", "Article 25-28"],
+      "answer": 0
+    },
+    {
+      "q_hi": "निम्नलिखित में से कौन सा अनुच्छेद 'अस्पृश्यता के उन्मूलन' (Abolition of Untouchability) से संबंधित है?",
+      "q_en": "Which of the following articles is related to the 'Abolition of Untouchability'?",
+      "options_hi": ["अनुच्छेद 15", "अनुच्छेद 16", "अनुच्छेद 17", "अनुच्छेद 18"],
+      "options_en": ["Article 15", "Article 16", "Article 17", "Article 18"],
+      "answer": 2
+    },
+    {
+      "q_hi": "भारतीय संविधान में मौलिक अधिकारों को किस देश के संविधान से लिया गया है?",
+      "q_en": "From which country's constitution were the Fundamental Rights adopted in the Indian Constitution?",
+      "options_hi": ["यूके (UK)", "यूएसए (USA)", "आयरलैंड", "कनाडा"],
+      "options_en": ["UK", "USA", "Ireland", "Canada"],
+      "answer": 1
+    },
+    {
+      "q_hi": "44वें संविधान संशोधन के द्वारा किस मौलिक अधिकार को हटा दिया गया था?",
+      "q_en": "Which fundamental right was removed by the 44th Constitutional Amendment?",
+      "options_hi": ["समानता का अधिकार", "संपत्ति का अधिकार", "धार्मिक स्वतंत्रता का अधिकार", "शिक्षा का अधिकार"],
+      "options_en": ["Right to Equality", "Right to Property", "Right to Freedom of Religion", "Right to Education"],
+      "answer": 1
+    }
+  ]
+}

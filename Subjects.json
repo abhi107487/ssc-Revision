@@ -1,0 +1,8 @@
+{
+  "subjects": [
+    { "id": "math", "name": "Maths" },
+    { "id": "reasoning", "name": "Reasoning" },
+    { "id": "english", "name": "English" },
+    { "id": "gs", "name": "GS" }
+  ]
+}

@@ -1,0 +1,109 @@
+/* Premium SSC CGL Quiz CSS */
+:root {
+    --primary: #2563EB; 
+    --secondary: #3B82F6; 
+    --bg: #E3F2FD; /* Sky Blue Background */
+    --card: #FFFFFF; 
+    --text-p: #000000; /* Pure Black Text */
+    --text-s: #333333; 
+    --border: #B3E5FC; 
+    --green: #22C55E; 
+    --red: #EF4444;
+}
+
+body { 
+    font-family: 'Poppins', sans-serif; 
+    background-color: var(--bg); 
+    color: var(--text-p); 
+    margin: 0; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+}
+
+#app { 
+    width: 100%; 
+    max-width: 500px; 
+}
+
+header { 
+    background: linear-gradient(135deg, var(--primary), var(--secondary)); 
+    padding: 20px; 
+    border-radius: 16px; 
+    color: white; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2); 
+}
+
+#progress-container { 
+    background: rgba(255,255,255,0.3); 
+    height: 8px; 
+    border-radius: 4px; 
+    margin-top: 10px; 
+    overflow: hidden; 
+}
+
+#progress-bar { 
+    height: 100%; 
+    background: #FFFFFF; 
+    width: 0%; 
+    transition: width 0.3s ease; 
+}
+
+.card { 
+    background: var(--card); 
+    padding: 24px; 
+    border-radius: 16px; 
+    border: 1px solid var(--border); 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+}
+
+h2, h3 { 
+    color: #000000; /* Strict Black */
+    margin-bottom: 20px; 
+}
+
+.options-grid { 
+    display: grid; 
+    gap: 12px; 
+    margin-top: 20px; 
+}
+
+button { 
+    cursor: pointer; 
+    border: 1px solid var(--border); 
+    padding: 16px; 
+    border-radius: 12px; 
+    background: #F1F9FF; 
+    color: #000000; /* Black text in buttons */
+    font-weight: 600; 
+    transition: all 0.2s; 
+    font-family: inherit; 
+    width: 100%;
+}
+
+button:hover { 
+    background: #E0F2FE;
+    border-color: var(--primary); 
+    transform: translateY(-2px); 
+}
+
+.btn-primary { 
+    background: linear-gradient(to right, var(--primary), #1D4ED8); 
+    color: white !important; 
+    border: none; 
+    margin-top: 20px; 
+}
+
+.correct { 
+    background: var(--green) !important; 
+    color: white !important; 
+    border-color: var(--green); 
+}
+
+.wrong { 
+    background: var(--red) !important; 
+    color: white !important; 
+    border-color: var(--red); 
+}

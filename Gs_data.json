@@ -1,0 +1,18 @@
+{
+  "chapters": [
+    {
+      "chapterName": "History",
+      "topics": [
+        { "topicName": "Ancient India", "file": "history_ancient.json" },
+        { "topicName": "Modern India", "file": "history_modern.json" }
+      ]
+    },
+    {
+      "chapterName": "Polity",
+      "topics": [
+        { "topicName": "Fundamental Rights", "file": "polity_rights.json" },
+        { "topicName": "Preamble", "file": "polity_preamble.json" }
+      ]
+    }
+  ]
+}
